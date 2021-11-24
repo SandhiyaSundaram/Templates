@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<title>Flex Template</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style3.css">
+    <style>
+        @media only screen and (max-width: 900px){
+             body{
+                    height: 4000px;
+                }                  
+                .header{
+                    width: 100%;
+                    height: 500px;
+                    flex-direction: column;
+                }   
+                .heading{
+                    width: 100%;
+                    height: 100px;
+                }
+                .menu{
+                    width: 100%;
+                    height: 400px;
+                }
+
+                li{
+                    width: 100%;
+                    display: inline-block;
+                    margin-right: 0px;
+                    margin-left: 10px;
+                }
+                .description, .footer{
+                    display: flex;
+                    flex-direction: column;
+                    height: 200px;
+                }
+                .content{
+                    height: 1000px;
+                }
+                .heading1, .heading2, .content, .copyright, .icons{
+                    width: 100%;
+                }
+                .outer_class{
+                    height: 2000px;
+                }
+                .about{
+                    height: 3000px;
+                }
+                .outer_class1, .inner_class1{
+                    display: flex;
+                    width: 100%;
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+                .inner_class{
+                    display: flex;
+                    flex-direction: column;
+                    height: 2000px;
+                }
+                .outer_class2{                   
+                    margin-top: 400px;
+                }
+                .icons{
+                    text-align: left;
+                }
+                .footer{
+                    flex-direction: column;
+                    width: 100%;
+                }
+
+        }
+    </style>
+</head>
+<body>
+
+	<div class="section1">
+            <div class="header">
+                <div class="heading">
+                    <p>KataKlimt Photography</p>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>About </li>
+                        <li>Services</li>
+                        <li>Folio </li>
+                        <li>Blog </li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+
+    <div class="image_section">
+    	<div class="image1"><img src="Image/baby01.jpg" width="100%"  height="400px"></div>
+    	<div class="image2"><img src="Image/baby02.jpg"  width="100%"  height="400px"></div>
+    	<div class="image3"><img src="Image/baby9.jpg"  width="100%"  height="400px"></div>
+    	<div class="image4"><img src="Image/baby8.jpg"  width="100%"  height="400px"></div>
+    	<div class="image5"><img src="Image/baby6.jpg"  width="100%"  height="400px"></div>    	
+    </div>
+
+    <div class="description">
+    	<div class="heading1">
+    		Welcome!    		
+    	</div>
+    	<div class="heading2">
+    		<a href="#">Click here</a>
+    		A good photograph is one that communicates a fact, touches the heart and leaves the viewer a changed person for having seen it. Beauty can be seen in all things, seeing and composing the beauty is what separates the snapshot from the photograph. Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever… It remembers little things, long after you have forgotten everything.
+    	</div>
+    </div>
+
+    <div class="outer_class">
+        <div class="inner_class">
+            <div class="content">
+                <h3 style="padding-bottom: 10px;">Fashion</h3>
+                <img src="Image/fashion_image.jpg" width="100%" height="300px" style="padding-bottom: 10px;">
+                <p>Fashion is a form of self-expression and autonomy at a particular period and place and in a specific context, of clothing, and body posture. </p><br>
+                <input type="button" value="Read More">
+            </div>
+            <div class="content">
+                <h3 style="padding-bottom: 10px;">Photography</h3>
+                <img src="Image/photo.jpg"  width="100%" height="300px" style="padding-bottom: 10px;">
+                <p>Freelancing has been the most popular choice among photographers. Photographers want to be self-employed have business management skills. </p><br>
+                <input type="button" value="Read More">                        
+            </div>
+            <div class="content">
+                <h3 style="padding-bottom: 10px;">Arts</h3>
+                <img src="Image/art_image.jpg"  width="100%" height="300px" style="padding-bottom: 10px;">
+                <p>Art is often considered the process or product of deliberately arranging elements in a way that appeals to the senses or emotions. </p><br>
+                <input type="button" value="Read More">
+            </div>
+            <div class="content">
+                <h3 style="padding-bottom: 10px;">Nature</h3>
+                <img src="Image/nature_image.png"  width="100%" height="300px" style="padding-bottom: 10px;">
+                <p>Nature, in the broadest sense, is the natural, physical, material world or universe. The study of nature is a large, if not the only, part of science.</p><br>
+                <input type="button" value="Read More">
+            </div>            
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="outer_class1">
+           <div class="inner_class1">
+                 <div class="heading3">
+                    Shortly about me
+                </div>
+                <div class="background_image">
+                    <img src="Image/image2.jpg" width="80%" height="500px" style="padding-top: 30px;">                    
+                </div>                
+            </div>
+
+            <div class="details">
+                Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.<hr>
+                <div class="details_list">
+                    <div class="details_inner">
+                        <ul class="inner1">
+                            <li class="inner2">campaigns</li>
+                            <li class="inner2">Portraits</li>
+                            <li class="inner2">Fine Art</li>
+                            <li class="inner2">Fashion</li>
+                        </ul>                      
+                    </div>
+                    <div class="details_inner1">
+                        <ul class="inner1">
+                            <li class="inner2">Advertising</li>
+                            <li class="inner2">Lifestyle</li>
+                            <li class="inner2">Love story</li>
+                            <li class="inner2">Landscapes</li>
+                        </ul>                                            
+                    </div>                    
+                </div>                
+            </div>
+
+            <div class="outer_class2">
+                <div class="inner_class2">                    
+                    <h2 style="color: white;"> Latest Photography</h2>
+              </div>
+              <div class="gallery">
+                <div class="gallery_inner">
+                    <img src="Image/baby3.jpg" width="150px" height="150px" class="gallery_image">
+                    <img src="Image/baby4.jpg" width="150px" height="150px" class="gallery_image1">
+                    <img src="Image/baby5.jfif" width="150px" height="150px" class="gallery_image2">
+                    <img src="Image/baby11.jfif" width="150px" height="150px" class="gallery_image3">
+                    <img src="Image/baby19.jpg" width="150px" height="150px" class="gallery_image4">
+                    <img src="Image/baby10.jpg" width="150px" height="150px" class="gallery_image5">
+                    <img src="Image/baby12.jfif" width="150px" height="150px" class="gallery_image6">
+                    <img src="Image/baby13.jfif" width="150px" height="150px" class="gallery_image7">
+                    <img src="Image/baby14.jpg" width="150px" height="150px" class="gallery_image8">
+                    <img src="Image/baby15.jpg" width="150px" height="150px" class="gallery_image9">
+                    <img src="Image/baby16.jpg" width="150px" height="150px" class="gallery_image10">
+                    <img src="Image/baby17.jpg" width="150px" height="150px" class="gallery_image11">
+                </div>                   
+              </div>                
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="copyright">
+           <h4>copyright.</h4>
+        </div>
+        <div class="icons">
+            <img src="Image/facebook.png" width="30px" height="30px">
+            <img src="Image/twitter.jpg"  width="30px" height="30px">
+            <img src="Image/google.jpg"  width="30px" height="30px">            
+        </div>
+          
+    </div>
+    <hr>
+
+    <div class="footer_outer">
+        Designed by Sandhiya S      
+    </div> 
+
+
+</body>
+</html>
